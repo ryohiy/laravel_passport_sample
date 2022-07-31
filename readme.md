@@ -20,6 +20,8 @@
     - Replicating claims as headers is deprecated and will removed from v4.0. Please manually set the header if you need
       it replicated.
 このエラーが出た場合はcomposer require lcobucci/jwt=3.3.*　コマンドでダウングレードを行うと解決。
+      
+- Access Tokenを渡す際に改行コード入らないように気をつける。
 
 ## About Laravel
 
